@@ -1,0 +1,14 @@
+GET http://localhost:3000/event?id=1
+
+###
+
+POST http://localhost:3000/event
+Content-Type: application/json
+
+{
+    "title": "test3"
+}
+
+###
+
+DELETE http://localhost:3000/event?id=1
